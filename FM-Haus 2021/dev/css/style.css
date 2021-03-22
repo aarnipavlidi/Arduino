@@ -1,0 +1,47 @@
+@font-face {
+  font-family: SyneMono-Regular;
+  src: url(../fonts/SyneMono-Regular.ttf);
+}
+
+#custom-font {
+  font-family: SyneMono-Regular;
+}
+
+.custom-background {
+  background-image: url(../images/markus-spiske-3tbtq3oCQ1s-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-basic {
+  padding:25px 0;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:10px;
+}
+
+.footer-basic .social > a {
+  font-size:25px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.8;
+}
+
+.footer-basic .social > a:hover {
+  opacity:1;
+}
+
+.footer-basic .copyright {
+  margin-top:10px;
+  text-align:center;
+  font-size: 20px;
+  font-family: SyneMono-Regular;
+  margin-bottom:0;
+}
